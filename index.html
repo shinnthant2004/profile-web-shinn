@@ -1,0 +1,601 @@
+<!doctype html>
+<div class="loader-screen">
+  <div class="loader">Loading...</div>
+</div>
+<html lang="en">
+<head>
+  <title>Marketing</title>
+  <meta name="title" content="Profile Website Project">
+  <meta name="description" content="Recommend course for MMS One Stop It Solution">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Profile Website Project">
+  <meta property="og:description" content="Recommend course for MMS One Stop It Solution">
+  <meta property="og:image" content="img/ss.png">
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Marketing</title>
+  <style>
+    .loader-screen{
+      background-color: white;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      z-index: 2000;
+    }
+    .loader {
+      color: #007bff;
+      font-size: 90px;
+      text-indent: -9999em;
+      overflow: hidden;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      margin: 72px auto;
+      position: relative;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+      animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+    }
+    @-webkit-keyframes load6 {
+      0% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      }
+      5%,
+      95% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      }
+      10%,
+      59% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+      }
+      20% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+      }
+      38% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+      }
+      100% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      }
+    }
+    @keyframes load6 {
+      0% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      }
+      5%,
+      95% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      }
+      10%,
+      59% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+      }
+      20% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+      }
+      38% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+      }
+      100% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      }
+    }
+    @-webkit-keyframes round {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes round {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="vendor/slick/slick.css">
+  <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+  <link rel="stylesheet" href="vendor/animate_it/animate.css">
+
+</head>
+<body>
+
+<header class="container-fluid site-nav animated slideInDown">
+  <div class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 px-0">
+          <nav class="navbar navbar-expand-lg navbar-dark d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+              <img class="site-logo" src="../_data/logo-long.svg">
+
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars fa-2x menu-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link text-uppercase" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#pricing">pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#contact">contact us</a>
+                </li>
+              </ul>
+
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="home" class="home container-fluid">
+  <div class="row">
+    <div class="container">
+      <div class="row align-items-center min-vh-100 flex-column-reverse flex-md-row">
+        <div class="col-12 col-md-6 animated slideInLeft ani-delay-1">
+          <div class="my-3">
+            <h4 class="text-uppercase">social media</h4>
+            <h1 class="text-uppercase font-weight-bolder text-primary">for bussiness</h1>
+            <p class="text-uppercase text-black-50">performance based social media agency<br class="d-block d-md-none d-lg-block">
+            we are lorem media.
+            </p>
+            <a class="btn btn-primary text-light text-uppercase animated slideInLeft ani-delay-3">get a free audit</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 animated slideInRight ani-delay-2">
+          <div class="my-5 mx-5 mx-md-0">
+            <img src="../_data/content-1.svg" class="w-100">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="social-v animated slideInLeft ani-delay-3">
+    <a href="">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="">
+      <i class="fa fa-google"></i>
+    </a>
+    <a href="">
+      <i class="fa fa-instagram"></i>
+    </a>
+    <a href="">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <div class="bg-primary" style="width: 5px;height: 25px"></div>
+  </div>
+  <a href="#about" class="scroll-to-next shadow"><img src="img/mouse.svg" style="width: 42%;animation-iteration-count: infinite" class="animated bounce"></a>
+</section>
+<section id="about" class="container-fluid about py-5 py-md-0 ">
+  <div class="row align-items-center py-5 py-md-0 min-vh-100">
+    <div class="col-12 col-md-6 py-3 py-md-5">
+      <div class="text-right mr-5 mr-md-0 wow slideInLeft">
+        <img src="img/content-2.svg" class="w-75 content-2-img">
+      </div>
+    </div>
+    <div class="col-12 col-md-6 about-test py-3 py-md-5">
+      <div class="w-75 content-2-text wow slideInRight">
+        <p class="text-secondary">Biography</p>
+        <h4 class="text-uppercase">who we are ?</h4>
+        <p class="text-black-50 py-4">
+          Lorem Media is a full-service social media agency. We offer businesses innovative solutions that deliver the right type of audience to you in the most effective strategies possible. We strive to develop a community around your business, polishing your branding, and improving your public relations.
+          Social Media is now one of the most powerful marketing tools with the ability to communicate with a target audience in real time.
+        </p>
+        <p>It's 2019: time to sink or swim.</p>
+        <a class="btn btn-primary text-uppercase text-light">See more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="container-fluid services">
+  <div class="row min-vh-100">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-12 mb-3 wow slideInLeft">
+          <p class="text-secondary">Our Services</p>
+          <h4 class="text-uppercase font-weight-bolder">what we offer</h4>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5 wow slideInRight ani-delay-1">
+            <div class="card-body">
+              <img src="img/icon-1.svg">
+              <p class="font-weight-bolder text-primary my-4">SOCIAL MEDIA MANAGEMENT</p>
+              <p class="text-black-50 card-des mb-4">
+                Perfect for growing your brand’s social community and engage with the right
+                audience. We manage everything from curation of content to management of
+                comments and everything in between.
+              </p>
+              <a class="btn btn-secondary text-light">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5 wow slideInRight ani-delay-2">
+            <div class="card-body">
+              <img src="img/icon-2.svg">
+              <p class="font-weight-bolder text-primary my-4">SOCIALS GROWTH CAMPAIGN</p>
+              <p class="text-black-50 card-des mb-4">
+                Our social growth campaign will have your socials come alive.
+                With constant growth and engagement you will be sure to have the thriving you’ve been looking for.
+              </p>
+              <a class="btn btn-secondary text-light">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5 wow slideInRight ani-delay-3">
+            <div class="card-body">
+              <img src="img/icon-3.svg">
+              <p class="font-weight-bolder text-primary my-4">BRANDING & MEDIA</p>
+              <p class="text-black-50 card-des mb-4">
+                Done right, branding offers a company an edge over the competition. So what exactly is branding, and why is it important for companies to integrate a well-rounded branding and media strategy?
+              </p>
+              <a class="btn btn-secondary text-light">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5 wow slideInLeft ani-delay-3">
+            <div class="card-body">
+              <img src="img/icon-4.svg">
+              <p class="font-weight-bolder text-primary my-4">INFLUENCER MARKETING</p>
+              <p class="text-black-50 card-des mb-4">
+                We will pair your business with influencers that speak to your audience. Influencer Marketing is the most effective way to reach a loyal audience.
+              </p>
+              <a class="btn btn-secondary text-light">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5 wow slideInLeft ani-delay-2">
+            <div class="card-body">
+              <img src="img/icon-5.svg">
+              <p class="font-weight-bolder text-primary my-4">SOCIAL MEDIA PAID ADVERTISING</p>
+              <p class="text-black-50 card-des mb-4">
+                Our ad campaigns will bring you the results your looking for. From brand awareness campaigns the right ads for your business. Our re-targeting campaigns your site.
+              </p>
+              <a class="btn btn-secondary text-light">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5 wow slideInLeft ani-delay-1">
+            <div class="card-body">
+              <img src="img/icon-6.svg">
+              <p class="font-weight-bolder text-primary my-4">CONTENT MARKETING SERVICES</p>
+              <p class="text-black-50 card-des mb-4">
+                We can create and provide your company with the best content marketing for your socials to improve online presence. Creating valuable and quality content helps boost conversions and improve customer retention.
+              </p>
+              <a class="btn btn-secondary text-light">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="pricing" class="container-fluid pricing">
+  <div class="row py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 mb-3 wow slideInDown ani-delay-1">
+          <p class="text-secondary">Pricing</p>
+          <h4 class="text-uppercase font-weight-bolder">Our pricing</h4>
+        </div>
+      </div>
+      <div class="row pt-5 price-slick wow slideInDown">
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">One pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 140</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Two pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 120</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Three pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 130</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Four pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 140</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Five pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 160</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Six pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 170</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Seven pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 180</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Eight pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 190</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card shadow services-card mb-5">
+            <div class="card-body text-center">
+              <h4 class="text-primary text-uppercase my-5 font-weight-bold">Nine pakage</h4>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid assumenda dolor error ex, facilis fuga illum inventore iure labore ob.</p>
+              <h4 class="text-primary font-weight-bold my-5">$ 200</h4>
+              <a class="btn btn-outline-primary text-primary mb-5">See Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="container-fluid contact">
+  <div class="row">
+    <div class="container">
+      <div class="row py-5">
+          <div class="col-12 my-5 text-center wow fadeIn">
+            <p class="text-secondary">Contact Us</p>
+            <h4 class="text-uppercase font-weight-bolder">Get in touch with us</h4>
+          </div>
+          <div class="col-12 col-md-6 wow slideInLeft ani-delay-1">
+            <form action="#">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea type="text" class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary">Send Message</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-6 wow slideInRight ani-delay-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61075.02390224596!2d96.14322532746932!3d16.91596708908731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c191619a23cd65%3A0xe0ec4d6f36651bf4!2sNorth%20Okkalapa%20Township%2C%20Yangon!5e0!3m2!1sen!2smm!4v1641572960112!5m2!1sen!2smm" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="row wow fadeIn ani-delay-2">
+    <footer class="col-12 footer">
+    <div class="container footer-laptop">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-5">
+          <div class="text-white text-center">
+            <p class="text-uppercase">stay in touch</p>
+            <h1 class="text-uppercase font-weight-bolder mb-4">marketing</h1>
+            <div class="d-flex justify-content-around social-icon">
+              <a href="#">
+                <i class="text-white fa fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="text-white fa fa-google-plus"></i>
+              </a>
+              <a href="#">
+                <i class="text-white fa fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="text-white fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-5">
+          <div class="font-weight-lighter">
+            <h4 class="text-uppercase text-white mb-4">quick links</h4>
+            <div class="">
+              <a href="#" class="text-white text-uppercase mb-3">about</a>
+              <br>
+              <a href="#" class="text-white text-uppercase mb-3">home</a>
+              <br>
+              <a href="#" class="text-white text-uppercase mb-3">pricing</a>
+              <br>
+              <a href="#" class="text-white text-uppercase mb-3">location</a>
+              <br>
+              <a href="#" class="text-white text-uppercase mb-3">office</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-5">
+          <div class="">
+
+              <h4 class="text-uppercase text-white mb-4">Hours</h4>
+           <div class="text-white font-weight-lighter">
+             <table>
+               <tr>
+                 <td style="width: 150px">Monday</td>
+                 <td>: 9:00 - 18:00</td>
+               </tr>
+               <tr>
+                 <td>Tuesday</td>
+                 <td>: 9:00 - 18:00</td>
+               </tr>
+               <tr>
+                 <td>Wednesday</td>
+                 <td>: 9:00 - 18:00</td>
+               </tr>
+               <tr>
+                 <td>Thursday</td>
+                 <td>: 9:00 - 18:00</td>
+               </tr>
+               <tr>
+                 <td>Friday</td>
+                 <td>: 9:00 - 18:00</td>
+               </tr>
+
+             </table>
+           </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-5">
+        <div class="text-white">
+          <h4 class="text-uppercase text-white mb-4">Contact</h4>
+          <div class="font-weight-light">
+            <a href="#" class="text-white text-uppercase mb-3"><i class="fa fa-phone-square fa-fw"></i>09776517553</a>
+            <br>
+            <a href="#" class="text-white text-uppercase mb-3"><i class="fa fa-envelope fa-fw"></i>MMS@gmail.com</a>
+            <br>
+            <a href="#" class="text-white text-uppercase mb-3"><i class="fa fa-map fa-fw"></i>thit sar street,yangon</a>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="pb-3 d-flex justify-content-between flex-column flex-lg-row">
+            <span class="text-white">@Copyright Myanmar Pilot All Right Reserved</span>
+            <span class="text-white">Designed By <a href="http://mms-it.com" class="text-light">MMS IT</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+  </div>
+</section>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="vendor/wow/wow.js"></script>
+<script src="vendor/way_point/jquery.waypoints.js"></script>
+<script>
+  new WOW().init();
+  $('.price-slick').slick({
+    arrows: false,
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+</script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

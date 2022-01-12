@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+ scroll-behavior: smooth ;
+}
+body{
+}
+.site-logo{
+    width: 150px;
+}
+.site-nav{
+    position: absolute;
+    top: 0;
+    z-index: 50;
+}
+.contact{
+    background-image: url("../img/Asset 2.svg"),url("../img/Asset 3.svg");
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.home{
+    background-image: url("../img/bg-shape.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+}
+.ani-delay-1{
+    animation-delay: 0.5s;
+}
+.ani-delay-2{
+    animation-delay: 1s;
+}
+.ani-delay-3{
+    animation-delay: 1.5s;
+}
+.ani-delay-4{
+    animation-delay:2s;
+}
+.social-icon a{
+    transition: 0.5s;
+}
+.social-icon a:hover{
+    transform: scale(1.5);
+}
+.social-v{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.social-v a{
+  margin-bottom: 5px;
+    transition: 0.5s;
+}
+.social-v a:hover{
+    transform: scale(1.5);
+}
+.site-nav-scroll{
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #00000020;
+    animation: toShow 1s linear;
+}
+@keyframes toShow {
+    from{
+
+        transform: translateY(-200px);
+
+    }to{
+
+         transform: translateY(0);
+
+     }
+}
+.site-nav-scroll .nav-link{
+    color: #1A129F !important;
+}
+.site-nav-scroll .menu-icon{
+    color: #1A129F !important ;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.scroll-to-next{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    bottom: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.about-test{
+    background-image: url("../img/bg-2.svg");
+    background-size: 100%;
+    background-position: center;
+}
+.about{
+    background-color: #7e76f910;
+}
+.services{
+    background-image: url("../img/bg-3.svg");
+    background-size: 100%;
+    background-position: center;
+}
+.services-card{
+    border-radius:35px !important;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.05) !important;
+    transition: 0.5s;
+}
+.services-card:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transform: scale(0.98);
+}
+.services-card:hover img{
+    transform: translateX(20px);
+}
+.services-card img{
+    transition: 0.5s;
+}
+.card-des{
+    height: 180px;
+}
+.pricing{
+    background-color:#7E76F915 ;
+}
+
+.slick-dots li{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent;
+    border: 1px solid #7e76f9;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #7e76f9;
+}
+.footer{
+    padding-top: 150px
+}
+.nav-link.current-section{
+    border-bottom: 2px solid white;
+}
+.site-nav-scroll .nav-link.current-section{
+    border-bottom: 2px solid black ;
+}
+@media screen and (max-width: 780px){
+    .nav-link.current-section{
+        border-bottom: 2px solid white;
+    }
+    .site-nav{
+        background-color: #ffffffee;
+        box-shadow: 0 0 5px #00000015;
+        backdrop-filter: blur(5px);
+    }
+    .navbar-nav{
+        padding-top: 20px;
+    }
+    .site-nav .nav-link{
+        color: #1A129F !important;
+        margin-bottom:20px;
+        padding: 15px 20px;
+        background-color: #ffffff;
+        border-radius: 10em;
+        box-shadow: 0 0 5px #00000015;
+    }
+    .site-nav .menu-icon{
+        color: #1A129F !important ;
+    }
+}
+@media screen and (max-width: 574px){
+    .nav-link.current-section{
+        border-bottom: 2px solid white;
+    }
+    .content-2-img,.content-2-text{
+        width: 100% !important;
+    }
+    .footer{
+        background-size: cover;
+        background-position: center;
+    }
+    .scroll-to-next{
+        margin: 10px;
+        left: auto;
+        right: 10px;
+        bottom: 10px;
+    }
+    .social-v{
+        bottom: 160px;
+        left: auto;
+        right: 20px;
+    }
+    .site-nav{
+        background-color: #ffffffee;
+        box-shadow: 0 0 5px #00000015;
+        backdrop-filter: blur(5px);
+    }
+    .navbar-nav{
+        padding-top: 20px;
+    }
+    .site-nav .nav-link{
+        color: #1A129F !important;
+        margin-bottom:20px;
+        padding: 15px 20px;
+        background-color: #ffffff;
+        border-radius: 10em;
+        box-shadow: 0 0 5px #00000015;
+    }
+    .site-nav .menu-icon{
+        color: #1A129F !important ;
+    }
+}
+@media screen and (min-width: 992px){
+    .footer-laptop{
+        position: relative;
+        bottom: 80px;
+    }
+}
